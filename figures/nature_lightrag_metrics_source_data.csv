@@ -1,0 +1,10 @@
+﻿method,metric,metric_label,n,mean,ci95_lower,ci95_upper
+LLM,keypoint_recall,Key-point recall,200,0.17657142857142857,0.1377136904761905,0.2165723214285714
+LLM,all_keypoints_correct,All-key-point accuracy,200,0.055,0.025,0.09
+LLM,clause_citation_accuracy,Clause citation accuracy,200,0.04,0.015,0.07
+RAG,keypoint_recall,Key-point recall,200,0.53275,0.47558333333333336,0.58975
+RAG,all_keypoints_correct,All-key-point accuracy,200,0.34,0.275,0.4051249999999982
+RAG,clause_citation_accuracy,Clause citation accuracy,200,0.72,0.655,0.78
+LightRAG,keypoint_recall,Key-point recall,200,0.7260833333333332,0.6746645833333333,0.7753333333333333
+LightRAG,all_keypoints_correct,All-key-point accuracy,200,0.57,0.5,0.635
+LightRAG,clause_citation_accuracy,Clause citation accuracy,200,0.95,0.92,0.98

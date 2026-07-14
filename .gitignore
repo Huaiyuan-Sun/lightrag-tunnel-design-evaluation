@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.env
+raw_results.jsonl
+detailed_results.csv
+*.log

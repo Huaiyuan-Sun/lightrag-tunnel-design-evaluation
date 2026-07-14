@@ -1,0 +1,17 @@
+{
+  "title": "Optimized LightRAG Evaluation for Drill-and-Blast Tunnel Excavation and Support Design",
+  "questions": 200,
+  "public_contents": [
+    "aggregate metrics",
+    "question metadata",
+    "figures",
+    "plotting code",
+    "reports"
+  ],
+  "excluded": [
+    "copyrighted standards and full source text",
+    "gold answers and extracted evidence snippets",
+    "complete model responses and retrieval contexts",
+    "API keys and local environment configuration"
+  ]
+}

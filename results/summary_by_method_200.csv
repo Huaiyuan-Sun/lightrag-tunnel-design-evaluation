@@ -1,0 +1,4 @@
+﻿method,n,keypoint_recall_mean,keypoint_recall_sd,all_keypoints_correct_rate,source_citation_accuracy,clause_citation_accuracy,answer_composite_mean,retrieval_source_hit,retrieval_evidence_recall,latency_mean_s,prompt_tokens_mean,completion_tokens_mean
+LLM,200,0.17657142857142857,0.28625013960544865,0.055,1.0,0.04,0.2864285714285714,nan,nan,11.1418365,233.415,390.585
+RAG,200,0.53275,0.40167981136008235,0.34,1.0,0.72,0.6215625,0.985,0.7609166666666667,11.5016875,3669.75,340.695
+LightRAG,200,0.7260833333333333,0.3621835629587552,0.57,1.0,0.95,0.7895625000000001,1.0,0.9841666666666666,14.4015595,8506.415,340.52
