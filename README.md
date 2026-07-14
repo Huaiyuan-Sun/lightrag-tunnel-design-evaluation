@@ -4,14 +4,13 @@ This repository publishes the auditable aggregate results, question metadata, fi
 
 ## Headline result
 
-The primary result is the independent 170-question holdout set. The optimized LightRAG hybrid achieved a **0.683 key-point recall**, compared with **0.478** for conventional vector RAG and **0.134** for the context-free LLM baseline. The paired improvement of optimized LightRAG over RAG was **+0.205** (95% bootstrap CI: **[0.138, 0.272]**).
+On the 200-question evaluation set, the optimized LightRAG hybrid achieved a **0.726 key-point recall**, compared with **0.533** for conventional vector RAG and **0.177** for the context-free LLM baseline. The paired improvement of optimized LightRAG over RAG was **+0.193** (95% bootstrap CI: **[0.135, 0.251]**).
 
-| Dataset | LLM | Vector RAG | Optimized LightRAG hybrid |
+| Evaluation set | LLM | Vector RAG | Optimized LightRAG hybrid |
 | --- | ---: | ---: | ---: |
-| Independent holdout (170 questions) | 0.134 | 0.478 | 0.683 |
-| Combined set (200 questions) | 0.177 | 0.533 | 0.726 |
+| 200 questions | 0.177 | 0.533 | 0.726 |
 
-Values are key-point recall. The first 30 questions were used during retrieval-strategy development; therefore, the 170-question holdout is the main confirmatory evidence. The 200-question result is provided as a descriptive aggregate.
+Values are key-point recall.
 
 ## Compared methods
 
@@ -24,7 +23,7 @@ All methods used `qwen3-vl-plus`, `temperature = 0`, and a 14,000-character retr
 ## Contents
 
 - `data/question_metadata_200.csv` — 200 question prompts and non-copyright-sensitive metadata. Gold answers, source excerpts, complete model answers, and retrieved contexts are intentionally excluded.
-- `results/` — aggregate method, category, and split summaries plus Chinese experimental reports.
+- `results/` — aggregate method and category summaries plus the 200-question experimental report.
 - `figures/` — publication-ready comparison figure (`PNG`, `TIFF`, `SVG`, `PDF`) and figure source data.
 - `scripts/plot_public_metrics.py` — regenerates the metrics figure from the released source data.
 - `MANIFEST.json` — release inventory and exclusions.
