@@ -22,8 +22,10 @@ All methods used `qwen3-vl-plus`, `temperature = 0`, and a 14,000-character retr
 
 ## Contents
 
-- `data/question_metadata_200.csv` — 200 question prompts and non-copyright-sensitive metadata. Gold answers, source excerpts, complete model answers, and retrieved contexts are intentionally excluded.
+- `data/question_metadata_200.csv` — 200 question prompts and metadata.
 - `results/` — aggregate method and category summaries plus the 200-question experimental report.
+- `results/raw_results_600.jsonl` — all 600 method-question responses and their retrieval contexts (3 methods × 200 questions).
+- `results/detailed_results_200.csv` — item-level automatic evaluation results.
 - `figures/` — publication-ready comparison figure (`PNG`, `TIFF`, `SVG`, `PDF`) and figure source data.
 - `scripts/plot_public_metrics.py` — regenerates the metrics figure from the released source data.
 - `MANIFEST.json` — release inventory and exclusions.
@@ -41,7 +43,7 @@ Pairwise uncertainty was estimated with paired non-parametric bootstrap confiden
 
 ## Source standards and reproducibility
 
-The evaluation used three standards: GB 50086-2015, JTG 3370.1-2018 (Part 1), and JTG/T 3660-2020. Their full text is not distributed here. Users must obtain the standards from legitimate sources and comply with the applicable copyright and licensing terms before reproducing retrieval or generation experiments.
+The evaluation used three standards: GB 50086-2015, JTG 3370.1-2018 (Part 1), and JTG/T 3660-2020. The standards themselves are not distributed as standalone source files in this repository. Users should obtain the standards from legitimate sources and comply with the applicable copyright and licensing terms before reproducing retrieval or generation experiments.
 
 To regenerate the released figure:
 

@@ -4,14 +4,14 @@
   "public_contents": [
     "aggregate metrics",
     "question metadata",
+    "complete answers and retrieval contexts",
+    "item-level evaluation",
     "figures",
     "plotting code",
     "reports"
   ],
   "excluded": [
     "copyrighted standards and full source text",
-    "gold answers and extracted evidence snippets",
-    "complete model responses and retrieval contexts",
     "API keys and local environment configuration"
   ]
 }
